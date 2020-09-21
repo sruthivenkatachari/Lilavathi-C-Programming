@@ -29,7 +29,7 @@ double time_used;
 st=clock();*/
 lilavathi(a,n);
 /*en=clock();
-time_used=((double)(en=st))/CLOCKS_PER_SEC;
+time_used=((double)(en-st))/CLOCKS_PER_SEC;
 printf("lilavathi cube took %lf seconds to execute\n",time_used);    */
 return 0;
 }
